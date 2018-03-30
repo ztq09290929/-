@@ -2,7 +2,7 @@
 """
 Created on
 爬取网页图片
-@author: zhangtianqi5
+@author: ztq
 """
 import os
 import re
@@ -12,7 +12,7 @@ import socket
 import sys
 
 FORBIDDEN_CHAR = ['/', '\\', '*', '?', '|', '"', '>', '<', ':']
-SAVE_ROOT_PATH = u"D:/组内资料/客流组论文分享/食堂菜品分类/dataset/检索用爬取样本/"
+SAVE_ROOT_PATH = u""
 
 def get_html(url):
     """
