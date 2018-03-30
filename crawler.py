@@ -2,7 +2,7 @@
 """
 Created on
 爬取网页图片
-@author: ztq
+@author: zhangtianqi5
 """
 import os
 import re
@@ -124,8 +124,8 @@ def get_img(download_img_list, dish_name, dish_class_num):
 if __name__ == "__main__":
     pic_dict = {}
     ori_html = "http://www.douguo.com/caipu/%E5%AE%B6%E5%B8%B8%E8%8F%9C/"
-    jc_id = 12
-    dish_class_num = 12
+    jc_id = 14
+    dish_class_num = 14
 
     # 最外层循环，在家常菜下，翻页，每页30个链接
     while (1):
