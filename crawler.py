@@ -2,7 +2,7 @@
 """
 Created on
 爬取网页图片
-@author: zhangtianqi5
+@author: ztq
 """
 import os
 import re
